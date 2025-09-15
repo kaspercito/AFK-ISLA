@@ -44,7 +44,6 @@ Hoy es un día para festejar a lo grande, porque sos lo máximo, Belencita. ¡Qu
   } catch (error) {
     console.error('¡Error al enviar el mensaje, pana!', error);
   }
-});
 
   client.login(process.env.DISCORD_TOKEN);
 });
